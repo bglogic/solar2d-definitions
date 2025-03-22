@@ -55,7 +55,7 @@ local function genLuaDocs(input, funcName, returnvalue)
     end
 
     if returnvalue then
-        o = o .. "--- @returns " .. translateLuaType(returnvalue) .. "\n"
+        o = o .. "--- @return " .. translateLuaType(returnvalue) .. "\n"
     end
     return o
 end
